@@ -187,6 +187,9 @@ body{
     color: #FFFFFF;
 
 }
+.featured-img img{
+    width: 100%;
+}
 /* Footer Section Design */
 .footer{
     background-color:#0A0826;
@@ -232,6 +235,12 @@ Mobile responsive
     .hero-image{
         margin-left: 0;
     }
+    .hero-image img{
+        width: 100%;
+    }
+    .hero-details{
+        padding: 10px;
+    }
     .advertise{
         flex-wrap: wrap;
         margin: 0;
@@ -247,5 +256,5 @@ Mobile responsive
         padding: 32px 17px;
         text-align: center;
 }
+s
     }
-}
