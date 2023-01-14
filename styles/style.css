@@ -1,0 +1,251 @@
+/* Common Style */
+body{
+    margin: 0;
+    font-family: poppins;
+    
+}
+/* Header Styles */
+.nav{
+    display: flex;
+    gap: 380px;
+    padding: 50px 120px;
+}
+.nav .logo p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.menu-icons{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.menu-icons li{
+    list-style: none;
+    float: left;
+    padding-right:  34px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.go{
+    color: #121212;
+}
+/* Hero Section Style */
+.hero-section{
+    display: flex;
+}
+.hero-details{
+    padding-left: 120px;
+}
+.hero-image{
+    padding-right: 165px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top:30px;
+    margin-left: 120px;
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.hero-des{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+.hero-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #E02C6D;
+    border: 0;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+.hero-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.right-arrow{
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+/* advertise styles */
+.advertise{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    border-top: 1px solid #F1E4FF;
+    border-bottom: 1px solid #F1E4FF;
+    padding: 35px 60px;
+    margin: 100px;
+}
+
+/* Products Styles */
+.section-title{
+    font-weight: 600;
+   font-size: 28px;
+   color: #3A3A3A;
+   text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px 196px;
+}
+.product{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 16px;
+}
+.product-title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000;
+    margin-top: 6px;
+}
+.product-rating{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: -25px;
+}
+.product-rating{
+    display: flex;
+    align-items: center;
+}
+.rates{
+    color: orange;
+    font-size: 14px;
+}
+.rate-title{
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+.product-des{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+.see-more{
+    color: #E02C6DDE;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: end;
+    float: left;
+    padding-right: 156px;
+}
+.see-more i{
+    color: #E02C6DDE;
+}
+.see-more p{
+    font-weight: 700;
+    font-size: 16px;  
+}
+/* Featured products Style */
+.Featured-section{
+    display: flex;
+    gap: 40px;
+    padding: 100px 145px;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 0;
+}
+.feature-des{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: -10px;
+}
+.feature-btn{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #E02C6D;
+    border: 0;
+    padding: 8px 24px;
+}
+.feature-btn p, i{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+/* Footer Section Design */
+.footer{
+    background-color:#0A0826;
+    width: 100%;
+    height: 239px;
+    text-align: center;
+    padding-top: 40px;
+}
+.all-footer h3{
+   color: #FFFFFF;
+   font-weight: 700;
+   font-size: 24px;
+}
+.all-footer p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.footer-icons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.footer-icons i{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: rgba(113, 113, 113, 0.198);
+    padding: 9px;
+    border-radius: 50%;
+}
+
+/*-------------------
+Mobile responsive 
+--------------------*/
+@media screen and (max-width:576px) {
+    .nav{
+        gap: 10px;
+        padding: 10px;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        margin-left: 0;
+    }
+    .advertise{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px 40px;
+    }
+    .Featured-section{
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 32px 17px;
+        text-align: center;
+}
+    }
+}
