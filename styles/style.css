@@ -187,9 +187,7 @@ body{
     color: #FFFFFF;
 
 }
-.featured-img img{
-    width: 100%;
-}
+
 /* Footer Section Design */
 .footer{
     background-color:#0A0826;
@@ -234,6 +232,7 @@ Mobile responsive
     }
     .hero-image{
         margin-left: 0;
+        padding-right: 0;
     }
     .hero-image img{
         width: 100%;
@@ -248,7 +247,7 @@ Mobile responsive
     }
     .products{
         grid-template-columns: repeat(1, 1fr);
-        padding: 30px 40px;
+        justify-content: center;
     }
     .Featured-section{
         flex-direction: column-reverse;
@@ -256,5 +255,7 @@ Mobile responsive
         padding: 32px 17px;
         text-align: center;
 }
-s
+.featured-img img {
+    width: 100%;
+}
     }
