@@ -260,3 +260,50 @@ Mobile responsive
     width: 100%;
 }
     }
+
+
+/* Tablate Devices Responsive */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav{
+        gap: 220px;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-image img{
+        width: 100%;
+    }
+    .products{
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .products{
+        padding: 30px 100px;
+    }
+    .advertise{
+        flex-wrap: wrap;
+    }
+    .Featured-section{
+        padding: 100px 50px;
+    }
+    .feature-title{
+        font-size: 25px;
+    }
+    .feature-des{
+        font-size: 12px;
+    }
+    .feature-btn{
+        padding: 6px 18px;
+    }
+    .feature-btn p{
+        font-size: 12px;
+    }
+    .featured-img img{
+        width: 260px;
+    }
+    .see-more{
+        padding-top: 470px;
+        float: right;
+        padding-right: 0;
+    }
+}
