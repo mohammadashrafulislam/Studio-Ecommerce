@@ -132,7 +132,7 @@ header, .advertise,.products-section, .Featured-section, .footer{
     display: flex;
     align-items: center;
 }
-.rates{
+.rates i{
     color: orange;
     font-size: 14px;
 }
