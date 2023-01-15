@@ -4,21 +4,10 @@ body{
     font-family: poppins;
     
 }
-header{
+header, .advertise,.products-section, .Featured-section, .footer{
     overflow: hidden;
 }
-.advertise{
-    overflow: hidden;
-}
-.products-section{ 
-    overflow: hidden;
-}
-.Featured-section{
-    overflow: hidden;
-}
-.footer{
-    overflow: hidden;
-}
+
 /* Header Styles */
 .nav{
     display: flex;
@@ -239,7 +228,7 @@ Mobile responsive
 --------------------*/
 @media screen and (max-width:576px) {
     .nav{
-        gap: 10px;
+        gap: 1px;
         padding: 10px;
     }
     .hero-section{
@@ -259,11 +248,13 @@ Mobile responsive
     .advertise{
         flex-wrap: wrap;
         margin: 0;
-        padding: 0;
+        padding: 30px 0;
+        margin: 20px 0;
     }
     .products{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+        padding: 30px 100px;
     }
     .Featured-section{
         flex-direction: column-reverse;
