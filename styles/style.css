@@ -4,6 +4,21 @@ body{
     font-family: poppins;
     
 }
+header{
+    overflow: hidden;
+}
+.advertise{
+    overflow: hidden;
+}
+.products-section{ 
+    overflow: hidden;
+}
+.Featured-section{
+    overflow: hidden;
+}
+.footer{
+    overflow: hidden;
+}
 /* Header Styles */
 .nav{
     display: flex;
